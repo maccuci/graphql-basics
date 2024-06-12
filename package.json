@@ -1,0 +1,21 @@
+{
+  "name": "graphql-bun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun ./src/index.ts --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "@graphql-tools/graphql-file-loader": "^8.0.1",
+    "@graphql-tools/load": "^8.0.2",
+    "apollo-datasource": "^3.3.2",
+    "graphql": "^16.8.2"
+  }
+}
